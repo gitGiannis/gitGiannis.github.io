@@ -1,3 +1,3 @@
-```bash
+```link
 gitgiannis.github.io
 ```
