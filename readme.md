@@ -1,3 +1,3 @@
-΄΄΄bash
-gitGiannis.github.io
-΄΄΄
+```bash
+gitgiannis.github.io
+```
