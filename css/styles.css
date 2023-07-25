@@ -75,5 +75,5 @@ main > .tagline {
 }
 
 main > div:nth-of-type(2) > a {
-	color: black;
+	color: black !important;
 }
