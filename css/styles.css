@@ -73,3 +73,7 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+main > div:nth-of-type(2) > a {
+	color: black;
+}
