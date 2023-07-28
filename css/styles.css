@@ -75,5 +75,7 @@ main > .tagline {
 }
 
 main > div:nth-of-type(2) > a {
-	color: black !important;
+	/* using !important element to over-pass chrome built-in blue link colour */
+	color: inherit !important;
+	text-decoration: none;
 }
