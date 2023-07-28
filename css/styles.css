@@ -79,3 +79,7 @@ main > div:nth-of-type(2) > a {
 	color: inherit !important;
 	text-decoration: none;
 }
+
+main > div > a:hover {
+	color: red !important;
+}
