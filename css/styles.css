@@ -55,10 +55,6 @@ main > .tagline {
 	font-weight: 100;
 }
 
-.icons-social i {
-	padding: 10px;
-}
-
 .icons-social a {
   text-decoration: none;
 }
@@ -82,4 +78,10 @@ main > div:nth-of-type(2) > a {
 
 main > div > a:hover {
 	color: red !important;
+}
+
+main img {
+	width: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
