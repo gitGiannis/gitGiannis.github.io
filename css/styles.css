@@ -49,7 +49,7 @@ main > .intro {
 	font-weight: 600;
 }
 
-main > .tagline {
+.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
@@ -58,7 +58,7 @@ main > .tagline {
 	justify-content: center;
 }
 
-main > .tagline > * {
+.tagline > * {
 	padding: 0 15px;
 }
 
@@ -92,13 +92,13 @@ main > .tagline > * {
 	height: 2.65rem;
 }
 
-main > div.tagline a {
+.tagline a {
 	/* using !important element to over-pass chrome built-in blue link colour */
 	color: inherit !important;
 	text-decoration: none;
 }
 
-main > div.tagline a:hover {
+div.tagline a:hover {
 	color: red !important;
 }
 
