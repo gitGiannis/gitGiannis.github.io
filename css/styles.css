@@ -62,8 +62,23 @@ main > .tagline > * {
 	padding: 0 15px;
 }
 
+.social-item {
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px;
+	font-size: smaller;
+}
+
+.icons-social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .icons-social a {
   text-decoration: none;
+	display: flex;
+	flex-direction: column;
 }
 
 .devto {
@@ -77,13 +92,13 @@ main > .tagline > * {
 	height: 2.65rem;
 }
 
-main > div:nth-of-type(2) a {
+main > div.tagline a {
 	/* using !important element to over-pass chrome built-in blue link colour */
 	color: inherit !important;
 	text-decoration: none;
 }
 
-main > div:nth-of-type(2) a:hover {
+main > div.tagline a:hover {
 	color: red !important;
 }
 
